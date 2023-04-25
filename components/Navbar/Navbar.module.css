@@ -1,0 +1,53 @@
+.menu{
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.menu_item{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.menu_item_logo{
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.menu_store{
+    height: 100%;
+}
+
+.navbar_img{
+    height: 40px;
+    padding: 8px;  
+    align-content: center; 
+}
+
+.navbar_img_logo{
+    width: 80px;
+    height: 52px;   
+}
+
+.menu_item:hover{
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(247, 241, 241);
+}
+
+.cart_container{
+    display: flex;
+    align-items: center;
+}
+
+.cart_counter{
+    font-weight: bold;
+    color: green;
+}

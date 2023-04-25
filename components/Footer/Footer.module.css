@@ -1,0 +1,25 @@
+.footer_menu_grid{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.footer_menu_container{
+    background-color: rgb(237, 237, 237);
+}
+
+.footer_menu_contact_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_menu_contact_list_item{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+}
+.footer_menu_desc_cred{
+    margin: 0px;
+    font-size: small;
+}
