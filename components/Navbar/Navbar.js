@@ -12,7 +12,7 @@ function Navbar (){
                 /*style.menu */
     return (
         <Menu borderless size='huge' pointing as='header'>
-            <Link href="https://dannyjacome30.github.io/DannyJacome/" passHref>
+            <Link target="_blank" href="https://dannyjacome30.github.io/DannyJacome/" passHref>
                 <Image className={`${style.menu_item_logo} ${style.navbar_img_logo}`} src="/Avocado-Store/images/Logo_DJ_2.svg" alt="Logo" width={100} height={100}/>  
             </Link>
                 
