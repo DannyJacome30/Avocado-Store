@@ -12,7 +12,7 @@ const mapProductsToCards = (products) =>
     <Link key={id} href={`/product/${id}`} className={style.product_card} passHref>
         <Card
           header={name}
-          image={{children:<Image src={image} width={280} height={280}/>}}
+          image={{children:<Image src={"/Avocado-Store/"+image} width={280} height={280}/>}}
           meta={{
           children: <Card.Meta style={{ color: 'dimgray' }}>{price}</Card.Meta>,
           }}/>
