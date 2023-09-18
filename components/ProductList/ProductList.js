@@ -21,6 +21,7 @@ const mapProductsToCards = (products) =>
 )
 
 function ProductList({ products }) {
+  console.log(products.image)
   return ( 
     <Card.Group itemsPerRow={2} stackable className={style.product_container_list}>
       {mapProductsToCards(products)}
