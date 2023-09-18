@@ -8,7 +8,7 @@ function ProductSummary({product}) {
     return ( 
         <Item.Group as='section'>
             <Item>
-                <Item.Image size='medium' src={product.image}/>
+                <Item.Image size='medium' src={"/Avocado-Store/"+product.image}/>
                 <Item.Content>
                     <Item.Header as='h1'>
                         {product.name}
