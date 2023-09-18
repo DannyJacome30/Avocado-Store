@@ -32,7 +32,7 @@ function CartItemList({items, removeFromCart, loading=false,}) {
                 ),
                 image:(
                     <Item.Image
-                        src={image}
+                        src={"/Avocado-Store/"+image}
                         alt={name}
                         size='small'
                     /> 
