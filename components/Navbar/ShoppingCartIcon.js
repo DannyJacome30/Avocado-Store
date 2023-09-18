@@ -19,7 +19,7 @@ function ShoppingCartIcon({cartCount}) {
     const name = 'SHOPPING'
     return ( 
         <div className={style.cart_container}>
-            <Image className={style.navbar_img} src="/images/shopping-cart.png" alt="Logo" width={40} height={40}/>
+            <Image className={style.navbar_img} src="/Avocado-Store/images/shopping-cart.png" alt="Logo" width={40} height={40}/>
             <div>
                 {showCartCount()} 
                 {` ${name} `}
